@@ -17,14 +17,12 @@
         </li>
 
 <!-- Tag cloud -->
-        <?php if (is_single() || is_page() || is_tag()) { ?>
-            <li>
-                <h2><?php _e('Tags') ?></h2>
-                <div id="tag_cloud_for_content" style="-moz-border-radius: 5px">
-                    <?php wp_tag_cloud('unit=pt&format=flat'); ?>
-                </div>
-            </li>
-        <?php } ?>
+        <li>
+            <h2><?php _e('Tags') ?></h2>
+            <div id="tag_cloud_for_content" style="-moz-border-radius: 5px">
+                <?php wp_tag_cloud('unit=pt&format=flat'); ?>
+            </div>
+        </li>
 
 <!-- Recent comments -->
         <?php if (function_exists('last_comments')) { ?>

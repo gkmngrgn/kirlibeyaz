@@ -1,11 +1,5 @@
 <?php get_header(); ?>
 <div id="content">
-    <div id="tag_cloud_for_content">
-        <?php wp_tag_cloud('unit=pt&format=flat'); ?>
-    </div>
-    <div id="title_for_tag_cloud">
-        <h3><?php _e('Tags') ?></h3>
-    </div>
     <?php if (have_posts()) : ?>
     <?php while (have_posts()) : the_post(); ?>
     <div class="post" id="post-<?php the_ID(); ?>">
