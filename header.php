@@ -35,11 +35,13 @@ if  ((navigator.appName == "Microsoft Internet Explorer") && (navigator.userAgen
     </div>
     <div id="hmenu">
         <ul>
-            <li class="hmenu1"><a href="http://www.gokmengorgen.net">Anasayfa</a></li>
+            <li class="hmenu1"><a href="<?php bloginfo('url'); ?>">Anasayfa</a></li>
+            <!--
             <li><a href="http://github.com/gkmngrgn">GitHub</a></li>
             <li><a href="http://gkmngrgn.tumblr.com">Tumblr</a></li>
             <li><a href="http://identi.ca/gkmngrgn">Identi.ca</a></li>
             <li><a href="http://twitter.com/gkmngrgn">Twitter</a></li>
+            -->
         </ul>
     </div>
     <div id="wrapper">
