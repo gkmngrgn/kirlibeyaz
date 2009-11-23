@@ -15,20 +15,6 @@
            <?php the_content(__('Continue reading'). " &#8216;" . the_title('', '', false) . "&#8217; &raquo;"); ?>
         </div>
         <div id="postmetadata">
-            <div id="adsense">
-                <script type="text/javascript"><!--
-                google_ad_client = "pub-0952188451968791";
-                /* 468x15, oluşturulma 27.04.2009 */
-                google_ad_slot = "6424580101";
-                google_ad_width = 468;
-                google_ad_height = 15;
-                //-->
-                </script>
-                <script type="text/javascript"
-                src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-                </script>
-            </div>
-
             <ul>
                 <?php if (!get_the_tags() == '') { ?>
                     <li style="background-color: #D8F2B8; border-color: #8ae234; text-align: left">
